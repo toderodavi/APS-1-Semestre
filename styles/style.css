@@ -1,4 +1,9 @@
-html, header, nav, h1, h2, p {
-    padding: 0;
-    margin: 0;
+html,
+header,
+nav,
+h1,
+h2,
+p {
+	padding: 0;
+	margin: 0;
 }

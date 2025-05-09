@@ -22,3 +22,187 @@ html {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+.galery1 {
+	width: justify;
+	height: 22.1875rem;
+	top: 64rem;
+	left: 5.75;
+	border-radius: 1.875rem;
+	margin-bottom: 5rem;
+	margin-top: 3.125rem;
+}
+#galery1 {
+	background: url('../img/imagem\ fundo\ teste.avif');
+}
+.description {
+	font-family: Montserrat;
+	color: whitesmoke;
+	justify-self: center;
+	padding: 0.625rem;
+	font-size: 3rem;
+	
+}
+.description2 {
+	font-family: Inter;
+	color: whitesmoke;
+	justify-self: center;
+	padding-top: 0.625rem;
+	font-size: 2.1875rem;
+	
+	
+	
+}
+.description3 {
+	font-family: Inter;
+	color: whitesmoke;
+	justify-self: center;
+	font-size: 2.1875rem;
+}
+.button {
+	font-family: inter;
+	font-size: 1.4375rem;
+	border-radius:0.875rem  ;
+	cursor: pointer;
+	margin-top: 5rem;
+	width: 25rem;
+	height: 4.0625rem;
+    
+}
+.galery2 {
+	width: justify;
+	height: 22.1875;
+	top: 64rem;
+	left: 5.75;
+	border-radius: 1.875rem;
+	margin-bottom: 5rem;
+}
+#galery2 {
+	background: url('../img/imagem\ fundo\ 2.jpg');
+}
+.description4 {
+	font-family: Montserrat;
+	color: whitesmoke;
+	justify-self: center;
+	padding: 0.625rem;
+	font-size: 3rem;
+	
+}
+.description5 {
+	font-family: Inter;
+	color: whitesmoke;
+	justify-self: center;
+	padding-top: 0.625rem;
+	font-size: 2.1875rem;
+	
+	
+	
+}
+.description6 {
+	font-family: Inter;
+	color: whitesmoke;
+	justify-self: center;
+	font-size: 2.1875rem;
+}
+.button2 {
+	font-family: inter;
+	font-size:1.4375rem;
+	border-radius:0.875rem ;
+	cursor: pointer;
+	margin-top: 5rem;
+	width: 25rem;
+	height: 4.0625rem;
+    
+}
+.galery3 {
+	width: justify;
+	height: 22.1875rem;
+	top: 64rem;
+	left: 5.75rem;
+	border-radius: 1.875rem;
+	margin-bottom: 5rem;
+}
+#galery3 {
+	background: url('../img/imagem\ fundo\ 3.webp');
+}
+.description7 {
+	font-family: Montserrat;
+	color: whitesmoke;
+	justify-self: center;
+	padding: 0,625rem;
+	font-size: 3rem;
+	
+}
+.description8 {
+	font-family: Inter;
+	color: whitesmoke;
+	justify-self: center;
+	padding-top: 0.625rem;
+	font-size: 2.1875rem;
+	
+	
+	
+}
+.description9 {
+	font-family: Inter;
+	color: whitesmoke;
+	justify-self: center;
+	font-size: 2.1875rem;
+}
+.button3 {
+	font-family: inter;
+	font-size:1.4375rem;
+	border-radius:0.875rem;
+	cursor: pointer;
+	margin-top: 5rem;
+	width: 25rem;
+	height: 4.0625rem;
+    
+}
+.galery4 {
+	width: justify;
+	height: 22.1875rem;
+	top: 64rem;
+	left: 5.75rem;
+	border-radius: 1.875rem;
+	margin-bottom: 5rem;
+}
+#galery4 {
+	background: url('../img/imagem\ fundo\ 4.webp');
+}
+.description10 {
+	font-family: Montserrat;
+	color: whitesmoke;
+	justify-self: center;
+	padding: 0.625rem;
+	font-size: 3rem;
+	
+}
+.description11 {
+	font-family: Inter;
+	color: whitesmoke;
+	justify-self: center;
+	padding-top: 0.625rem;
+	font-size: 35px;
+	
+	
+	
+}
+.description12 {
+	font-family: Inter;
+	color: whitesmoke;
+	justify-self: center;
+	font-size: 2.1875rem;
+}
+.button4 {
+	font-family: inter;
+	font-size:1.4375rem;
+	border-radius:0.875rem ;
+	cursor: pointer;
+	margin-top: 5rem;
+	width: 25rem;
+	height: 4.0625rem;
+    
+}
+body {
+	text-align: center;
+}

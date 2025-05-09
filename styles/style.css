@@ -24,6 +24,7 @@
 	border-radius: 1.875rem;
 	margin-bottom: 5rem;
 	margin-top: 3.125rem;
+	box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem gray;
 }
 #galery1 {
 	background: url('../img/imagem\ fundo\ teste.avif');
@@ -69,6 +70,7 @@
 	left: 5.75;
 	border-radius: 1.875rem;
 	margin-bottom: 5rem;
+	box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem gray;
 }
 #galery2 {
 	background: url('../img/imagem\ fundo\ 2.jpg');
@@ -114,6 +116,7 @@
 	left: 5.75rem;
 	border-radius: 1.875rem;
 	margin-bottom: 5rem;
+	box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem gray;
 }
 #galery3 {
 	background: url('../img/imagem\ fundo\ 3.webp');
@@ -159,6 +162,7 @@
 	left: 5.75rem;
 	border-radius: 1.875rem;
 	margin-bottom: 5rem;
+	box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem gray;
 }
 #galery4 {
 	background: url('../img/imagem\ fundo\ 4.webp');

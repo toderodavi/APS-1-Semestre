@@ -26,12 +26,12 @@
 	letter-spacing: 1px;
 }
 .galery1 {
-	width:58.9375rem ;
+	width:58.9rem ;
 	height: 16.5rem ;
-	border-radius: 1.875rem;
+	border-radius: 2rem;
 	margin-bottom: 5rem;
 	margin-top: 5rem;
-	box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem gray;
+	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem gray;
 	justify-self: center;
 	
 }
@@ -42,26 +42,26 @@
 	font-family: Montserrat;
 	color: whitesmoke;
 	justify-self: center;
-	padding: 0.625rem;
-	font-size: 1.875rem;
+	padding: 0.6rem;
+	font-size: 2rem;
 	
 }
 .description2 {
 	font-family: Inter;
 	color: whitesmoke;
 	justify-self: center;
-	font-size: 1.375rem;	
+	font-size: 1.4rem;	
 }
 
 
 .button {
 	font-family: inter;
-	font-size:1.25rem;
-	border-radius:0.875rem ;
+	font-size:1.2rem;
+	border-radius:0.9rem ;
 	cursor: pointer;
 	margin-top: 2rem;
-	width:13.125rem ;
-	height: 3.4375;
+	width:13rem ;
+	height: 3.4rem;
     
 }
 
@@ -70,11 +70,11 @@
 }
 
 .galery2 {
-	width:57.6875rem ;
+	width:57.7rem ;
 	height: 14rem ;
-	border-radius: 1.875rem;
+	border-radius: 2rem;
 	margin-bottom: 5rem;
-	box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem gray;
+	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem gray;
 	justify-self: center
 }
 #galery3 {

@@ -1,28 +1,31 @@
-html {
-	font-family: 'Montserrat', sans-serif;
-	background-color: #f5f5f5;
-	color: #424242;
-}
-
 .header {
 	display: flex;
 	align-items: center;
+	height: 60px;
+	margin: 0rem 5rem 0rem 5rem;
 }
 .nav {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	margin: 0rem 2rem 0rem 10rem;
-	gap: 3rem;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin: 0rem 0rem 0rem 0rem;
+	gap: 4rem;
+}
+
+.header > img {
+	margin-right: 16rem;
 }
 
 .nav > a {
 	color: #424242;
+	font-size: 1rem;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
+	letter-spacing: 1px;
 }
-.container {  /* base do flashcard 1 */ 
+.container {  
 	display: flex;
 	background:linear-gradient(
 			to bottom,
@@ -39,7 +42,7 @@ html {
 		column-gap: 6.875rem;
 }
 
-.item-1 { /*primeiro quadro do flashcard 1 */
+.item { 
 	background-color: gray;
 	width: 21.875rem;
 	height: 28.0625rem;
@@ -50,45 +53,24 @@ html {
 	border-radius: 1.875rem;
 	
 }
-.item-2 { /*segundo quadro do flashcard 1 */
-	background-color: gray;
-	width: 21.875rem;
-	height: 28.0625rem;
-	top: 8.0625rem;
-	left: 117.6875rem;
-	margin-left: 1.875rem;
-	margin-right: 1.875rem;
-	border-radius: 1.875rem;
-	
-}
-.item-3 { /*terceiro quadro do flashcard 1 */
-	background-color: gray;
-	width: 21.875rem;
-	height: 28.0625rem;
-	top: 8.0625rem;
-	left: 117.6875rem;
-	margin-left: 1.875rem;
-	margin-right: 1.875rem;
-	border-radius: 1.875rem;
-	
-}
-.item-4{ /*titulo do flashcard 1 */
+
+.item-2{ 
 	margin-top: 0.625rem;
 	margin-bottom: 0.625rem;
 }
-.title { /* formatação dos títulos dos 3 quadros do flashcard 1 */
+.title { 
 	font-size: 2.1875rem;
 	text-align: center;
 	margin-top: 5%;
 	color: #f5f5f5;
 }
-.title-2{ /*formatação do título do flashcard 1 */
+.title-2{ 
 	font-size: 2.1875rem;
 	text-align: center;
 	margin-top: 5%;
 	color:#424242;
 }
-.text { /* texto dos 3 quadros do flashcard 1 */
+.text { 
 	font-size: 1.125rem;
 	text-align: center;
 	display: flex;
@@ -114,61 +96,3 @@ html {
 		column-gap: 6.875rem;
 }
 
-.item-5 { /*primeiro quadro do flashcard 2 */
-	background-color: gray;
-	width: 21.875rem;
-	height: 28.0625rem;
-	top: 8.0625rem;
-	left: 117.6875rem;
-	margin-left: 1.875rem;
-	margin-right: 1.875rem;
-	border-radius: 1.875rem;
-	
-}
-.item-6 {/*segundo quadro do flashcard 2 */
-	background-color: gray;
-	width: 21.875rem;
-	height: 28.0625rem;
-	top: 8.0625rem;
-	left: 117.6875rem;
-	margin-left: 1.875rem;
-	margin-right: 1.875rem;
-	border-radius: 1.875rem;
-	
-}
-.item-7 { /*terceiro quadro do flashcard 2 */
-	background-color: gray;
-	width: 21.875rem;
-	height: 28.0625rem;
-	top: 8.0625rem;
-	left: 117.6875rem;
-	margin-left: 1.875rem;
-	margin-right: 1.875rem;
-	border-radius: 1.875rem;
-	
-}
-.item-8{ /*Titulo do flashcard 2 */
-	margin-top: 0.625rem;
-	margin-bottom: 0.625rem;
-}
-.title-3 {/* formatação dos títulos dos 3 quadros do flashcard 2 */
-	font-size: 2.1875rem;
-	text-align: center;
-	margin-top: 5%;
-	color: #f5f5f5;
-}
-.title-4{ /*formatação do título do flashcard 2 */
-	font-size: 2.1875rem;
-	text-align: center;
-	margin-top: 5%;
-	color:#424242;
-}
-.text-2 { /*formatação dos texto do flashcard 2 */
-	font-size: 1.125rem;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 3%;
-	color: #f5f5f5;
-}

@@ -50,17 +50,10 @@
 	font-family: Inter;
 	color: whitesmoke;
 	justify-self: center;
-	font-size: 1.375rem;
-	
-	
-	
+	font-size: 1.375rem;	
 }
-.description3 {
-	font-family: Inter;
-	color: whitesmoke;
-	justify-self: center;
-	font-size: 1.375rem;
-}
+
+
 .button {
 	font-family: inter;
 	font-size:1.25rem;
@@ -71,52 +64,12 @@
 	height: 3.4375;
     
 }
-.galery2 {
-	width:58.9375rem ;
-	height: 16.5rem ;
-	border-radius: 1.875rem;
-	margin-bottom: 5rem;
-	box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem gray;
-	justify-self: center
-	
-}
+
 #galery2 {
 	background: url('../img/Card_Efeitos.png');
 }
-.description4 {
-	font-family: Montserrat;
-	color: whitesmoke;
-	justify-self: center;
-	padding: 0.625rem;
-	font-size: 1.875rem;
-	
-}
-.description5 {
-	font-family: Inter;
-	color: whitesmoke;
-	justify-self: center;
-	font-size: 1.375rem;
-	
-	
-	
-}
-.description6 {
-	font-family: Inter;
-	color: whitesmoke;
-	justify-self: center;
-	font-size: 1.375rem;
-}
-.button2 {
-	font-family: inter;
-	font-size:1.25rem;
-	border-radius:0.875rem ;
-	cursor: pointer;
-	margin-top: 2rem;
-	width:13.125rem ;
-	height: 3.4375;
-    
-}
-.galery3 {
+
+.galery2 {
 	width:57.6875rem ;
 	height: 14rem ;
 	border-radius: 1.875rem;
@@ -127,84 +80,11 @@
 #galery3 {
 	background: url('../img/Card_Ativismo.png');
 }
-.description7 {
-	font-family: Montserrat;
-	color: whitesmoke;
-	justify-self: center;
-	padding: 0.625rem;
-	font-size: 1.875rem;
-	
-}
-.description8 {
-	font-family: Inter;
-	color: whitesmoke;
-	justify-self: center;
-	font-size: 1.375rem;
-	
-	
-	
-}
-.description9 {
-	font-family: Inter;
-	color: whitesmoke;
-	justify-self: center;
-	font-size: 1.375rem;
-}
-.button3 {
-	font-family: inter;
-	font-size:1.25rem;
-	border-radius:0.875rem ;
-	cursor: pointer;
-	margin-top: 2rem;
-	width:13.125rem ;
-	height: 3.4375;
-    
-}
-.galery4 {
-	width:57.6875rem ;
-	height: 14rem ;
-	border-radius: 1.875rem;
-	margin-bottom: 5rem;
-	box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem gray;
-	justify-self: center
-}
+
 #galery4 {
 	background: url('../img/Card_Linha.png');
 }
-.description10 {
-	font-family: Montserrat;
-	color: whitesmoke;
-	justify-self: center;
-	padding: 0.625rem;
-	font-size: 1.875rem;
-	
-}
-.description11 {
-	font-family: Inter;
-	color: whitesmoke;
-	justify-self: center;
-	padding-top: 0.625rem;
-	font-size: 1.375rem;
-	
-	
-	
-}
-.description12 {
-	font-family: Inter;
-	color: whitesmoke;
-	justify-self: center;
-	font-size: 1.375rem;
-}
-.button4 {
-	font-family: inter;
-	font-size:1.25rem;
-	border-radius:0.875rem ;
-	cursor: pointer;
-	margin-top: 2rem;
-	width:13.125rem ;
-	height: 3.4375;
-    
-}
+
 body {
 	text-align: center;
 }

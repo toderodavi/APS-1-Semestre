@@ -2,21 +2,24 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 60px;
 }
 
 .nav {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	margin: 0rem 2rem 0rem 10rem;
-	gap: 3rem;
+	flex-wrap: nowrap;
+	gap: 4.5rem;
 }
 
 .nav > a {
 	color: #424242;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-wrap: nowrap;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
 }
 
 .container {  
@@ -73,7 +76,7 @@
 	margin: 3%;
 	color: #f5f5f5;
 }
-.container-2 { /* base do flashcard 2 */
+.container-2 { 
 	display: flex;
 	background:linear-gradient(
 			to bottom,

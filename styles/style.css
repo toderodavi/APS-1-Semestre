@@ -1,43 +1,38 @@
 .header {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	height: 60px;
-	margin: 0rem 5rem 0rem 5rem;
 }
+
 .nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	width: 100%;
-	margin: 0rem 0rem 0rem 0rem;
-	gap: 4rem;
-}
-
-.header > img {
-	margin-right: 16rem;
+	gap: 4.5rem;
 }
 
 .nav > a {
 	color: #424242;
 	font-size: 1rem;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-wrap: nowrap;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 1px;
+
 }
-.galery1 {
-	width:58.9rem ;
-	height: 16.5rem ;
+.galery {
+	width:54rem ;
+	height: 15rem ;
 	border-radius: 2rem;
-	margin-bottom: 5rem;
-	margin-top: 5rem;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
 	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem gray;
 	justify-self: center;
 	
 }
-#galery1 {
-	background: url('../img/Card_Causas.png');
-}
+
 .description {
 	font-family: Montserrat;
 	color: whitesmoke;
@@ -55,36 +50,19 @@
 
 
 .button {
-	font-family: inter;
-	font-size:1.2rem;
-	border-radius:0.9rem ;
-	cursor: pointer;
-	margin-top: 2rem;
-	width:13rem ;
-	height: 3.4rem;
-    
+	font-style: Inter;
+	font-size: 1.4rem;
+	background-color: whitesmoke;
+    color: #424242;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	line-height: 10rem;
 }
 
-#galery2 {
-	background: url('../img/Card_Efeitos.png');
-}
-
-.galery2 {
-	width:57.7rem ;
-	height: 14rem ;
-	border-radius: 2rem;
-	margin-bottom: 5rem;
-	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem gray;
-	justify-self: center
-}
-#galery3 {
-	background: url('../img/Card_Ativismo.png');
-}
-
-#galery4 {
-	background: url('../img/Card_Linha.png');
-}
-
-body {
+.cards {
 	text-align: center;
 }

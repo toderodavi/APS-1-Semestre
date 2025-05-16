@@ -1,27 +1,23 @@
 .header {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	height: 60px;
-	margin: 0rem 5rem 0rem 5rem;
 }
+
 .nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	width: 100%;
-	margin: 0rem 0rem 0rem 0rem;
-	gap: 4rem;
-}
-
-.header > img {
-	margin-right: 16rem;
+	gap: 4.5rem;
 }
 
 .nav > a {
 	color: #424242;
 	font-size: 1rem;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-wrap: nowrap;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 1px;
 }

@@ -20,49 +20,39 @@
 	text-wrap: nowrap;
 	text-decoration: none;
 	text-transform: uppercase;
-
-}
-.galery {
-	width:54rem ;
-	height: 15rem ;
-	border-radius: 2rem;
-	margin-bottom: 3rem;
-	margin-top: 3rem;
-	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem gray;
-	justify-self: center;
-	
-}
-
-.description {
-	font-family: Montserrat;
-	color: whitesmoke;
-	justify-self: center;
-	padding: 0.6rem;
-	font-size: 2rem;
-	
-}
-.description2 {
-	font-family: Inter;
-	color: whitesmoke;
-	justify-self: center;
-	font-size: 1.4rem;	
-}
-
-
-.button {
-	font-style: Inter;
-	font-size: 1.4rem;
-	background-color: whitesmoke;
-    color: #424242;
-	border-radius: 0.5rem;
-	text-decoration: none;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-left: 0.2rem;
-	padding-right: 0.2rem;
-	line-height: 10rem;
 }
 
 .cards {
 	text-align: center;
+}
+
+.galery {
+	width: 54rem;
+	height: 15rem;
+	justify-self: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 2rem;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem gray;
+}
+
+.button {
+	font-style: Inter;
+	font-size: 1.5rem;
+	background-color: #f5f5f5;
+	color: #424242;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	padding: 1rem 0.5rem 1rem 0.5rem;
+	line-height: 6rem;
+	transition: ease-in 250ms;
+}
+
+.button:hover {
+	background-color: #424242;
+	color: #f5f5f5;
+	border: 2px solid #f5f5f5;
+	transition: ease-out 100ms;
 }

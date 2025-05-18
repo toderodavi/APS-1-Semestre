@@ -21,3 +21,38 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
+.cards {
+	text-align: center;
+}
+
+.galery {
+	width: 54rem;
+	height: 15rem;
+	justify-self: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 2rem;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem gray;
+}
+
+.button {
+	font-style: Inter;
+	font-size: 1.5rem;
+	background-color: #f5f5f5;
+	color: #424242;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	padding: 1rem 0.5rem 1rem 0.5rem;
+	line-height: 6rem;
+	transition: ease-in 250ms;
+}
+
+.button:hover {
+	background-color: #424242;
+	color: #f5f5f5;
+	border: 2px solid #f5f5f5;
+	transition: ease-out 100ms;
+}

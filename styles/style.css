@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-5px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -20,6 +31,33 @@
 	text-wrap: nowrap;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	height: 100vh;
+	margin: 0rem -2.5rem 0rem -2.5rem;
+	overflow: hidden;
+}
+
+.hero > img {
+	position: absolute;
+	object-fit: cover;
+	inset: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.hero > div {
+	position: absolute;
+	inset: 0;
+	margin: 6.5rem 9rem 0rem 9rem;
+	z-index: 1;
+	animation: fadeIn 2s ease-in-out forwards;
 }
 
 .cards {
@@ -55,31 +93,4 @@
 	color: #f5f5f5;
 	border: 2px solid #f5f5f5;
 	transition: ease-out 100ms;
-}
-
-.container {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	gap: 2rem;
-	width: fit-content;
-	height: 20rem;
-	justify-self: center;
-	border-radius: 2rem;
-	background: linear-gradient(
-		to bottom,
-		#f5f5f5 0%,
-		#f5f5f5 19%,
-		#01579b 19%,
-		#01579b 100%
-	);
-}
-
-.item {
-	background-color: gray;
-	text-align: center;
-	width: 15rem;
-	height: 20rem;
-	margin: 1rem 1rem 1rem 1rem;
-	border-radius: 2rem;
 }

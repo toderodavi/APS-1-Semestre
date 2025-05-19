@@ -71,7 +71,8 @@ p {
 
 .citation {
 	font-family: 'Playfair Display', serif;
-	font-size: 125%;
-	line-height: 125%;
+	color: #cecece;
+	font-size: clamp(1rem, 3.65vw, 7rem);
+	line-height: 150%;
 	letter-spacing: 4%;
 }

@@ -74,7 +74,7 @@
 }
 
 .galery {
-	width: 54rem;
+	width: 55rem;
 	height: 15rem;
 	justify-self: center;
 	background-position: center;
@@ -82,19 +82,20 @@
 	border-radius: 2rem;
 	margin-bottom: 3rem;
 	margin-top: 3rem;
-	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem gray;
+	box-shadow: 1px 2px 2px 2px gray;
 }
 
 .button {
-	font-style: Inter;
+	display: inline-block;
 	font-size: 1.5rem;
 	background-color: #f5f5f5;
 	color: #424242;
-	border-radius: 0.5rem;
+	border: 2px solid #424242;
+	border-radius: 16px;
 	text-decoration: none;
+	margin-top: 1rem;
 	padding: 1rem 0.5rem 1rem 0.5rem;
-	line-height: 6rem;
-	transition: ease-in 250ms;
+	transition: ease-in 150ms;
 }
 
 .button:hover {

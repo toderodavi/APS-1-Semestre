@@ -15,20 +15,20 @@ p {
 }
 
 h1 {
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 	margin-top: 2rem;
 	letter-spacing: 5%;
 }
 
 h2 {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	margin-top: 1.75rem;
 }
 
 p {
-	font-size: 1rem;
+	font-size: 1.25rem;
 	line-height: 1.5rem;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.3px;
 	margin: 0.75rem 0rem 0.5rem 0rem;
 }
 
@@ -71,8 +71,8 @@ p {
 
 .citation {
 	font-family: 'Playfair Display', serif;
-	color: #cecece;
-	font-size: clamp(1rem, 3.65vw, 7rem);
+	color: #e0e0e0;
+	font-size: clamp(1rem, 3.65vw, 2.5rem);
 	line-height: 150%;
 	letter-spacing: 4%;
 }

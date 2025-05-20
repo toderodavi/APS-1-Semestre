@@ -35,6 +35,7 @@
 
 .hero {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -49,15 +50,23 @@
 	object-fit: cover;
 	inset: 0;
 	width: 100%;
+	height: 100%;
 	z-index: 0;
 }
 
 .hero > div {
-	position: absolute;
 	inset: 0;
-	margin: 6.5rem 9rem 0rem 9rem;
 	z-index: 1;
 	animation: fadeIn 2s ease-in-out forwards;
+}
+
+.section-title {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	padding: 6rem 0rem 3rem 0rem;
+	justify-self: center;
+	text-align: center;
 }
 
 .cards {
@@ -92,5 +101,5 @@
 	background-color: #424242;
 	color: #f5f5f5;
 	border: 2px solid #f5f5f5;
-	transition: ease-out 100ms;
+	transition: ease-out 20ms;
 }

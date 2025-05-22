@@ -53,6 +53,7 @@ p {
 
 .paragraph {
 	font-family: 'Inter', sans-serif;
+	font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
 .paragraph-card {

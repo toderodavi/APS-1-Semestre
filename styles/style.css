@@ -127,7 +127,8 @@
 .section {
 	display: flex;
 	gap: 1.25rem;
-	margin: 1.25rem 0;
+	margin: 1.25rem 4rem;
+	text-align: justify;
 	align-items: center;
 }
 
@@ -135,28 +136,13 @@
 	flex-direction: row;
 }
 
-.section_parag_right {
-	flex-direction: row-reverse;
-}
-
 .section_parag_largeIMG {
 	flex-direction: column;
 	text-align: center;
 }
 
-.section .image img {
-	width: 9.375rem;
-	height: auto;
-	background: #ccc;
-}
-
-.section .text {
-	max-width: 31.25rem;
-}
-
 @media (max-width: 48rem) {
-	.section_parag_left,
-	.section_parag_right {
+	.section_parag_left {
 		flex-direction: column;
 		text-align: center;
 	}
@@ -229,6 +215,7 @@
 
 .img {
 	border-radius: 50%;
+	width: 30%;
 }
 .Flashcard-title {
 	color: #000;

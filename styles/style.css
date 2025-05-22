@@ -77,6 +77,15 @@
 }
 
 /*Estilização do parágrafo da página inicial*/
+.section-start {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	padding: 0rem 0rem 1rem 0rem;
+	justify-self: center;
+	text-align: center;
+}
+
 .section-title {
 	display: flex;
 	flex-direction: column;

@@ -144,3 +144,54 @@
 	margin-right: 4rem;
 	font-size: clamp(1rem, 1.5vw, 2rem);
 }
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 2rem;
+	width: fit-content;
+	height: 20rem;
+	justify-self: center;
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;;
+	margin-bottom: 3rem;
+	background: #01579b
+}
+
+.container2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 2rem;
+	width: fit-content;
+	height: 20rem;
+	justify-self: center;
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;;
+	margin-bottom: 3rem;
+	background: #D1A6A1
+}
+
+.item {
+	background-color: gray;
+	text-align: center;
+	width: 15rem;
+	height: 20rem;
+	margin: 0rem 1rem 1rem 1rem;
+	border-radius: 2rem;
+	
+}
+
+.img{
+	border-radius: 50%;
+	
+	
+}
+.Flashcard-title {
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}

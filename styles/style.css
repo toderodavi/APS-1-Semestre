@@ -1,3 +1,4 @@
+/*Animação do Hero*/
 @keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -9,6 +10,7 @@
 	}
 }
 
+/*Estilização do header e nav*/
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -46,6 +48,7 @@
 	transition: ease-in 120ms;
 }
 
+/*Estilização do Hero*/
 .hero {
 	display: flex;
 	flex-direction: column;
@@ -73,6 +76,7 @@
 	animation: fadeIn 2s ease-in-out forwards;
 }
 
+/*Estilização do parágrafo da página inicial*/
 .section-title {
 	display: flex;
 	flex-direction: column;
@@ -82,6 +86,7 @@
 	text-align: center;
 }
 
+/*Estilização dos cards*/
 .cards {
 	text-align: center;
 }
@@ -118,6 +123,45 @@
 	transition: ease-out 200ms;
 }
 
+/*Estilização dos parágrafos de texto*/
+.section {
+	display: flex;
+	gap: 1.25rem;
+	margin: 1.25rem 0;
+	align-items: center;
+}
+
+.section_parag_left {
+	flex-direction: row;
+}
+
+.section_parag_right {
+	flex-direction: row-reverse;
+}
+
+.section_parag_largeIMG {
+	flex-direction: column;
+	text-align: center;
+}
+
+.section .image img {
+	width: 9.375rem;
+	height: auto;
+	background: #ccc;
+}
+
+.section .text {
+	max-width: 31.25rem;
+}
+
+@media (max-width: 48rem) {
+	.section_parag_left,
+	.section_parag_right {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
 /*Estilização da linha do tempo*/
 .linha {
 	background-color: #292929;
@@ -145,6 +189,7 @@
 	font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
+/*Cards do ativismo*/
 .container {
 	display: flex;
 	flex-direction: column;
@@ -154,9 +199,9 @@
 	height: 20rem;
 	justify-self: center;
 	border-bottom-left-radius: 2rem;
-	border-bottom-right-radius: 2rem;;
+	border-bottom-right-radius: 2rem;
 	margin-bottom: 3rem;
-	background: #01579b
+	background: #01579b;
 }
 
 .container2 {
@@ -168,9 +213,9 @@
 	height: 20rem;
 	justify-self: center;
 	border-bottom-left-radius: 2rem;
-	border-bottom-right-radius: 2rem;;
+	border-bottom-right-radius: 2rem;
 	margin-bottom: 3rem;
-	background: #D1A6A1
+	background: #d1a6a1;
 }
 
 .item {
@@ -180,13 +225,10 @@
 	height: 20rem;
 	margin: 0rem 1rem 1rem 1rem;
 	border-radius: 2rem;
-	
 }
 
-.img{
+.img {
 	border-radius: 50%;
-	
-	
 }
 .Flashcard-title {
 	color: #000;

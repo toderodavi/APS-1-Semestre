@@ -1,3 +1,5 @@
+/*Configurações globais do CSS*/
+
 html {
 	background-color: #f5f5f5;
 	color: #424242;
@@ -32,6 +34,7 @@ p {
 	margin: 0.75rem 0rem 0.5rem 0rem;
 }
 
+/*Configurações das formatações de texto*/
 .title {
 	font-family: 'Montserrat', sans-serif;
 }

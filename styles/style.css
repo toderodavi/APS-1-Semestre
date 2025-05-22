@@ -145,6 +145,10 @@
 	flex-direction: row;
 }
 
+.section_parag_left > div > p {
+	margin-bottom: 1.5rem;
+}
+
 .section_parag_largeIMG {
 	flex-direction: column;
 	text-align: center;

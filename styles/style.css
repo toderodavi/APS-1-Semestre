@@ -149,8 +149,7 @@
 	margin-bottom: 1.5rem;
 }
 
-.section_parag_largeIMG {
-	flex-direction: column;
+.container-text-image {
 	text-align: center;
 }
 
@@ -159,81 +158,4 @@
 		flex-direction: column;
 		text-align: center;
 	}
-}
-
-/*Estilização da linha do tempo*/
-.linha {
-	background-color: #292929;
-	border-radius: 30px 0px 0px 0px;
-	margin-right: -2.5rem;
-	float: right;
-	width: 225px;
-	height: 100vh;
-}
-
-.section-linha {
-	float: right;
-	width: 600px;
-}
-
-.section-linha > h1 {
-	text-align: end;
-	margin-right: 4rem;
-	font-size: clamp(1.75rem, 1.5vw, 2.75rem);
-}
-
-.section-linha > p {
-	text-align: center;
-	margin-right: 4rem;
-	font-size: clamp(1rem, 1.5vw, 2rem);
-}
-
-/*Cards do ativismo*/
-.container {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	gap: 2rem;
-	width: fit-content;
-	height: 20rem;
-	justify-self: center;
-	border-bottom-left-radius: 2rem;
-	border-bottom-right-radius: 2rem;
-	margin-bottom: 3rem;
-	background: #01579b;
-}
-
-.container2 {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	gap: 2rem;
-	width: fit-content;
-	height: 20rem;
-	justify-self: center;
-	border-bottom-left-radius: 2rem;
-	border-bottom-right-radius: 2rem;
-	margin-bottom: 3rem;
-	background: #d1a6a1;
-}
-
-.item {
-	background-color: gray;
-	text-align: center;
-	width: 15rem;
-	height: 20rem;
-	margin: 0rem 1rem 1rem 1rem;
-	border-radius: 2rem;
-}
-
-.img {
-	border-radius: 50%;
-	width: 30%;
-}
-.Flashcard-title {
-	color: #000;
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-size: 1.5rem;
-	margin-bottom: 2rem;
 }
